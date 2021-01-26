@@ -65,8 +65,7 @@
 		content=#{content},
 		writer = #{writer},
 		updateDate = sysdate
-		where bno =
-		#{bno}
+		where bno = #{bno}
 	</update>
 
 	<!-- <select id="getListWithPaging" resultType="org.zerock.domain.BoardVO"> 

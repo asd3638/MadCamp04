@@ -154,6 +154,21 @@
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
+            <div class = "row">
+            	<div class="col-lg-12">
+            		<div class="panel panel-default">
+            			<div class="panel-heading">
+            				Files
+            			</div>
+            			<div class="panel-body">
+            				<div class="uploadResult">
+            					<ul>
+            					</ul>
+            				</div>
+            			</div>
+            		</div>
+            	</div>
+            </div>
             <script>
             	var actionForm = $("#actionForm");
             
@@ -167,6 +182,42 @@
             		e.preventDefault();
             		actionForm.attr("action", "/board/modify");
        				actionForm.submit();
+            	});
+            	
+            	$(document).ready(function() {
+            		(function(){
+            			var bno = '<c:out value="${board.bno}"/>';
+            			$.getJSON("/board/getAttachList", {bno: bno}, function(arr){
+            		        
+            			       console.log(arr);
+            			       
+            			       var str = "";
+            			       
+            			       $(arr).each(function(i, attach){
+            			       
+            			         //image type
+            			         if(attach.fileType){
+            			           var fileCallPath =  encodeURIComponent( attach.uploadPath+ "/s_"+attach.uuid +"_"+attach.fileName);
+            			           
+            			           str += "<li data-path='"+attach.uploadPath+"' data-uuid='"+attach.uuid+"' data-filename='"+attach.fileName+"' data-type='"+attach.fileType+"' ><div>";
+            			           str += "<img src='/display?fileName="+fileCallPath+"'>";
+            			           str += "</div>";
+            			           str +"</li>";
+            			         }else{
+            			             
+            			           str += "<li data-path='"+attach.uploadPath+"' data-uuid='"+attach.uuid+"' data-filename='"+attach.fileName+"' data-type='"+attach.fileType+"' ><div>";
+            			           str += "<span> "+ attach.fileName+"</span><br/>";
+            			           str += "<img src='/resources/img/attach.png'></a>";
+            			           str += "</div>";
+            			           str +"</li>";
+            			         }
+            			       });
+            			       
+            			       $(".uploadResult ul").html(str);
+            			       
+            			       
+            			     });
+            		})();
             	});
             </script>
        
