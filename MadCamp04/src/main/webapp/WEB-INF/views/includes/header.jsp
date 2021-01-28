@@ -53,7 +53,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">김지혜 짱</a>
+                <a class="navbar-brand" href="/static/list">김지혜 짱</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -82,10 +82,10 @@
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> MainPage </a>
+                            <a href="/static/list"><i class="fa fa-bar-chart-o fa-fw"></i> MainPage </a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-dashboard fa-fw"></i> Education </a>
+                            <a href="/static/learn"><i class="fa fa-dashboard fa-fw"></i> Education </a>
                         </li>
                         <li>
                             <a href="/board/list"><i class="fa fa-table fa-fw"></i> Portfolio </a>
