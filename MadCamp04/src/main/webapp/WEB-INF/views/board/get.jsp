@@ -221,6 +221,20 @@
             			       
             			       $(".uploadResult ul").html(str);
             			       
+            			       $(".uploadResult").on("click", "li", function(){
+            			    	   console.log("view image");
+            			    	   var liObj = $(this);
+            			    	   
+            			    	   var path = encodeURIComponent(liObj.data("path") + "/" + liObj.data("uuid") + "_" + liObj.data("filename"));
+            			    	   
+            			    	   if (liObj.data("type")) {
+            			    		  /*  showImage(path.replace(new RegExq(/\\/g), "/")); */
+            			    	   } else {
+            			    		   self.location = "/download?fileName=" + path
+            			    	   }
+            			       });
+            			       
+            			       
             			       
             			     });
             		})();
