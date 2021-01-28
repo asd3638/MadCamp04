@@ -202,7 +202,7 @@ $(document).ready(function() {
 	      formObj.attr("action", "/board/remove");
 	      
 	    }else if(operation === 'list'){
-	      //move to list
+	      
 	      formObj.attr("action", "/board/list").attr("method","get");
 	      
 	      var pageNumTag = $("input[name='pageNum']").clone();
