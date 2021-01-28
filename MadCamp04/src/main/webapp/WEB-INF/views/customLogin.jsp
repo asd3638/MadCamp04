@@ -47,7 +47,7 @@
 						<h3 class="panel-title">Please Sign In</h3>
 					</div>
 					<div class="panel-body">
-						<form role="form" method='post' action="/login">
+						<form role="form" method='post' action='/login'>
 							<fieldset>
 								<div class="form-group">
 									<input class="form-control" placeholder="userid"
@@ -63,8 +63,8 @@
 									</label>
 								</div>
 								<!-- Change this to a button or input when using this as a form -->
-								<a href="index.html" class="btn btn-lg btn-success btn-block">Login</a>
-								<a href="/register" class="btn btn-lg btn-register btn-block">New</a>
+								<a class="btn btn-lg btn-success btn-block">Login</a>
+								<a href="/new" class="btn btn-lg btn-register btn-block">New</a>
 							</fieldset>
 							<input type="hidden" name="${_csrf.parameterName}"
 								value="${_csrf.token}" />

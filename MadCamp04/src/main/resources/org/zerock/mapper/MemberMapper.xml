@@ -28,5 +28,12 @@ FROM
   tbl_member mem LEFT OUTER JOIN tbl_member_auth auth on mem.userid = auth.userid 
 WHERE mem.userid = #{userid} 
   </select>
+  
+  <insert id="add">
+	<!-- insert all into tbl_member (userid,userpw,username)
+		values (#{userid},
+		#{userpw}, #{userName}) -->
+		INSERT ALL INTO tbl_member VALUES (#{userid}, #{userpw}, #{userName}, sysdate, sysdate, 1) INTO tbl_member_auth VALUES (#{userid}, 'ROLE_USER') SELECT * FROM DUAL
+  </insert>
 
 </mapper>

@@ -1,11 +1,15 @@
 package org.zerock.mapper;
 
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.zerock.domain.AuthVO;
 import org.zerock.domain.MemberVO;
 
 import lombok.Setter;
@@ -28,6 +32,18 @@ public class MemberMapperTests {
     log.info(vo);
     
     vo.getAuthList().forEach(authVO -> log.info(authVO));
+    
+  }
+  
+  @Test
+  public void testWrite() {
+	MemberVO memberVO = new MemberVO();
+
+	memberVO.setUserid("userUSER");
+	memberVO.setUserName("userUSER");
+	memberVO.setUserpw("pwPW");
+    
+	mapper.add(memberVO);
     
   }
   
