@@ -379,13 +379,13 @@
                 <!--             /card1 -->
 		           <div class="col-lg-4">
 		                    <div class="panel panel-default">
-		                        <div class="panel-heading">
+		                        <div class="panel-heading" style = "font-size:20px">
 		                            ${crawlingInfo[0].name}
 		                        </div>
 		                        <div class="panel-body">
 		                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
 		                        </div>
-		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px">Learn more</a>
+		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px; margin-bottom:5px; margin-left:5px">Learn more</a>
 		                    </div>
 		                </div>
 <!--             /card -->
@@ -398,7 +398,7 @@
 		                        <div class="panel-body">
 		                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
 		                        </div>
-		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px">Learn more</a>
+		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px; margin-bottom:5px; margin-left:5px">Learn more</a>
 		                    </div>
 		                </div>
 <!--             /card -->
@@ -411,7 +411,7 @@
 		                        <div class="panel-body">
 		                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
 		                        </div>
-		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px">Learn more</a>
+		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px; margin-bottom:5px; margin-left:5px">Learn more</a>
 		                    </div>
 		                </div>
 <!--             /card -->
@@ -424,7 +424,7 @@
 		                        <div class="panel-body">
 		                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
 		                        </div>
-		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px">Learn more</a>
+		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px; margin-bottom:5px; margin-left:5px">Learn more</a>
 		                    </div>
 		                </div>
 <!--             /card -->
@@ -437,7 +437,7 @@
 		                        <div class="panel-body">
 		                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
 		                        </div>
-		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px">Learn more</a>
+		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px; margin-bottom:5px; margin-left:5px">Learn more</a>
 		                    </div>
 		                </div>
 <!--             /card -->
@@ -450,7 +450,7 @@
 		                        <div class="panel-body">
 		                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
 		                        </div>
-		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px">Learn more</a>
+		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px; margin-bottom:5px; margin-left:5px">Learn more</a>
 		                    </div>
 		                </div>
 <!--             /card -->
@@ -463,7 +463,7 @@
 		                        <div class="panel-body">
 		                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
 		                        </div>
-		                       <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px">Learn more</a>
+		                       <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px; margin-bottom:5px; margin-left:5px">Learn more</a>
 		                    </div>
 		                </div>
 <!--             /card -->
@@ -476,7 +476,7 @@
 		                        <div class="panel-body">
 		                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
 		                        </div>
-		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px">Learn more</a>
+		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px; margin-bottom:5px; margin-left:5px">Learn more</a>
 		                    </div>
 		                </div>
 <!--             /card -->
@@ -489,7 +489,7 @@
 		                        <div class="panel-body">
 		                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
 		                        </div>
-		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px">Learn more</a>
+		                        <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px; margin-bottom:5px; margin-left:5px">Learn more</a>
 		                    </div>
 		                </div>
 <!--             /card -->
@@ -503,7 +503,7 @@
 		                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</p>
 		                        </div>
 		                        
-		                          <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px">Learn more</a>
+		                          <a class="btn btn-primary btn-lg" role="button" style = "width : 100px; height : 30px; font-size: 10px; margin-bottom:5px; margin-left:5px">Learn more</a>
 
 		                    </div>
 		                </div>
