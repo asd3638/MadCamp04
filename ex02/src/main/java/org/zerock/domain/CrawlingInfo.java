@@ -12,5 +12,4 @@ public class CrawlingInfo {
 		this.name = name;
 		this.number = number;
 	}
-	
 }

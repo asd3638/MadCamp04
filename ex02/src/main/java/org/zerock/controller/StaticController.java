@@ -8,6 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.util.MultiValueMap;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,12 +31,13 @@ public class StaticController {
 	
 	
 	@GetMapping("list")
-	public void list() {
+	public void list(Model model) {
 		List<CrawlingInfo> InfoList =service.getInfoList();
+		model.addAttribute("crawlingInfo", InfoList);
 		log.info("getList!");
 		log.info(InfoList.size());
 		log.info(InfoList.get(0));
-		log.info(InfoList.getClass().getName());
+		log.info(InfoList.get(0));
 	}
 	
 	@PostMapping("take") 
@@ -50,11 +52,16 @@ public class StaticController {
 			String key = it.next();
 			List<Object> value = it2.next();
 			CrawlingInfo insertedInfo = new CrawlingInfo(key,Integer.parseInt(value.get(0).toString()));
-			
 			service.insertStatic(insertedInfo);
 			
 		}
 		
+	}
+	
+	@GetMapping("learn")
+	public void learn(Model model){
+		List<CrawlingInfo> InfoList =service.getInfoList();
+		model.addAttribute("crawlingInfo", InfoList);
 	}
 	
 	
